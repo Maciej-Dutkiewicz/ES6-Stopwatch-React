@@ -44,7 +44,7 @@ class Stopwatch extends React.Component {
             newTimes.minutes += 1;
             newTimes.seconds =0;
         }
-        this.setState({time: newTimes});
+        this.setState({times: newTimes});
     }
 	stop() {
 		this.running = false;
